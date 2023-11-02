@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* Added styles for the body and a container for centering */
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure container spans the full viewport height */
+}
+
+.contact_container {
+    padding: 10px 10px;
+    width: 50%;
+    background: rgb(223, 167, 167);
+    text-align: center; /* Center the content within .contact_container */
+}
+
+.contact_container .contant {
+    padding: 10px 20px;
+    max-width: 90%;
+}
+
+.contact_container .contant h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: rgb(23, 22, 25);
+    font-weight: 200;
+}
+
+.contact_container .contant .form {
+    padding: 20px 30px;
+    background: #fbf0fd;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24);
+    margin-top: 30px;
+}
+
+.contact_container .contant .form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_container .contant .form form input {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    width: 300px;
+    margin-top: 20px;
+    margin: 20px auto; /* Center the input horizontally */
+}
+
+.contact_container .contant .form form textarea {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    max-width: 350px;
+    margin-top: 20px;
+    resize: none;
+    margin: 20px auto; /* Center the textarea horizontally */
+}
+
+.contact_container .contant .form form button {
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    margin: 20px auto; /* Center the button horizontally */
+    background: #5a154b;
+    color: #fff;
+    cursor: pointer;
+}
